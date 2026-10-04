@@ -323,6 +323,17 @@ a {
         gap: 15px;
         text-align: center;
     }
+        .about {
+        padding: 60px 6%;
+    }
+
+    .about h2 {
+        font-size: 1.8rem;
+    }
+
+    .about p {
+        font-size: 0.95rem;
+    }
 }
 
 .about {
