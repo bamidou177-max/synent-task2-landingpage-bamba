@@ -324,7 +324,7 @@ a {
         text-align: center;
     }
 }
-/* About Section */
+
 .about {
     padding: 90px 8%;
     background: #f8fafc;
@@ -355,4 +355,13 @@ a {
     margin-bottom: 15px;
     line-height: 1.8;
     color: #64748b;
+}
+
+.btn-primary {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 20px rgba(37, 99, 235, 0.25);
 }
